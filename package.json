@@ -1,5 +1,6 @@
 {
   "name": "stackprobe",
+  "private": "false",
   "version": "0.1.2",
   "main": "dist/cli.js",
   "scripts": {
