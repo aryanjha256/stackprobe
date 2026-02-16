@@ -1,0 +1,48 @@
+{
+  "name": "stackprobe",
+  "version": "0.1.0",
+  "main": "dist/cli.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/cli.ts",
+    "test": "vitest"
+  },
+  "bin": {
+    "stackprobe": "dist/cli.js"
+  },
+  "keywords": [
+    "audit",
+    "cli",
+    "stackprobe",
+    "nodejs",
+    "typescript",
+    "tooling",
+    "devtools",
+    "dependencies",
+    "env",
+    "lint",
+    "circular-dependencies"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "thearyankumar",
+  "license": "MIT",
+  "description": "Audit your JS/TS project before it becomes a problem",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "commander": "^14.0.3",
+    "picocolors": "^1.1.1",
+    "semver": "^7.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "@types/semver": "^7.7.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
